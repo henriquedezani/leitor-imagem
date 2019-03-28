@@ -16,17 +16,21 @@ namespace LeitorImagem.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Erro>> Get()
         {
-            return null;
+            using(LeitorData data = new LeitorData())
+            {
+                return data.Read();
+            }
         }
 
         // GET api/values/5
         [HttpGet("/search")]
         public ActionResult<IEnumerable<Erro>> Get([FromQuery]string frase)
         {
-            
+            string[] palavras = frase.Split(' '); 
+
             using(LeitorData data = new LeitorData())
             {
-                return data.Read(frase);
+                return data.Read(palavras);
             }
         }
     }

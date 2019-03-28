@@ -22,6 +22,30 @@ namespace LeitorImagem.Data
             conn.Close();
         }
 
+        public List<Erro> Read()
+        {
+            List<Erro> erros = new List<Erro>();
+
+            NpgsqlCommand command = new NpgsqlCommand("SELECT * FROM listaerros", conn);
+
+            // Execute the query and obtain a result set
+            NpgsqlDataReader reader = command.ExecuteReader();
+ 
+            // Output rows
+            while (reader.Read())
+            {
+                Erro erro = new Erro();
+                erro.Id = reader.GetInt32(0);
+                erro.Titulo = reader.GetString(1);
+                erro.Solucao = reader.GetString(2);
+                erro.ImagemUrl = reader.GetString(3);
+
+                erros.Add(erro);
+            }
+
+            return erros;
+        }
+
         public List<Erro> Read(String[] palavras)
         {
             List<Erro> erros = new List<Erro>();
