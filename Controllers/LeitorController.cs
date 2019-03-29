@@ -23,7 +23,7 @@ namespace LeitorImagem.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("/search")]
+        [HttpGet("search")]
         public ActionResult<IEnumerable<Erro>> Get([FromQuery]string frase)
         {
             string[] palavras = frase.Split(' '); 

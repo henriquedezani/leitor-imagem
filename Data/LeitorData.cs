@@ -58,10 +58,12 @@ namespace LeitorImagem.Data
             string search = "";
 
             foreach(var palavra in palavras) {
-                search = search + " %" + palavra + "%";
+                search = search + "%" + palavra + "%";
             }
 
-            NpgsqlCommand command = new NpgsqlCommand("SELECT * FROM listaerros WHERE titulo iLIKE '" + search + "'", conn);
+            string sql = "SELECT * FROM listaerros WHERE titulo iLIKE '" + search + "'";
+
+            NpgsqlCommand command = new NpgsqlCommand(sql, conn);
 
             // Execute the query and obtain a result set
             NpgsqlDataReader reader = command.ExecuteReader();
