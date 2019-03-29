@@ -12,8 +12,13 @@ namespace LeitorImagem.Data
         public LeitorData()
         {
             // Connect to a PostgreSQL database
-           conn = new NpgsqlConnection(@"Server=127.0.0.1;User Id=postgres; 
-                            Password=pwd;Database=postgres;");
+           conn = new NpgsqlConnection(@"Server=ec2-184-73-153-64.compute-1.amazonaws.com;
+                            User Id=lewzwsulfsxjpk; 
+                            Password=86ca6f04167a8036e53b8fab435339cb5e497c00fdf520294d0dd68084d8448d;
+                            Database=da2ne88b6nh58i;
+                            sslmode=Prefer;Trust Server Certificate=true;");
+
+            // conn = new NpgsqlConnection(@"Host=ec2-184-73-153-64.compute-1.amazonaws.com;Database=da2ne88b6nh58i;sslmode=Prefer;Trust Server Certificate=true;Username=lewzwsulfsxjpk;Password=86ca6f04167a8036e53b8fab435339cb5e497c00fdf520294d0dd68084d8448d");
           conn.Open();
         }
 

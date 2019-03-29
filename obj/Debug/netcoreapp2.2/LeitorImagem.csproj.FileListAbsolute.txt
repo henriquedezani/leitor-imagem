@@ -1,0 +1,14 @@
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/bin/Debug/netcoreapp2.2/LeitorImagem.deps.json
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/bin/Debug/netcoreapp2.2/LeitorImagem.runtimeconfig.json
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/bin/Debug/netcoreapp2.2/LeitorImagem.runtimeconfig.dev.json
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/bin/Debug/netcoreapp2.2/LeitorImagem.dll
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/bin/Debug/netcoreapp2.2/LeitorImagem.pdb
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.csprojAssemblyReference.cache
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.csproj.CoreCompileInputs.cache
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.RazorAssemblyInfo.cache
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.RazorAssemblyInfo.cs
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.AssemblyInfoInputs.cache
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.AssemblyInfo.cs
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.RazorTargetAssemblyInfo.cache
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.dll
+/Users/henriquedezani/Documents/Desenvolvimento/fatec/TCC/William/LeitorImagem/obj/Debug/netcoreapp2.2/LeitorImagem.pdb
